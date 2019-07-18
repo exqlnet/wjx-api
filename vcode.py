@@ -10,7 +10,7 @@ class Verify:
     """
     该验证码识别调用的是http://www.fateadm.com平台
     识别率挺高的
-    需要注册，获取到pd_id和pd_key再实例化Verify
+    需要注册，获取到pd_id和pd_key
     """
     pd_id = ""
     pd_key = ""

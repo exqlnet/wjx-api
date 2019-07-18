@@ -15,7 +15,7 @@ import os
 from logger import log
 
 wjx = Wjx("wjx_username", "wjx_password")
-stat = wjx.is_running("wjx_activity_id")
+stat = wjx.is_running(activity)
 log("该问卷运行状态：", "正在运行" if stat else "未运行")
 
 # 先创建data目录
